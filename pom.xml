@@ -8,7 +8,30 @@
   <packaging>pom</packaging>
 
   <name>ATI Parent</name>
+  <organization>
+    <name>Sunet</name>
+    <url>https://www.sunet.se/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
+  <developers>
+    <developer>
+      <id>dennisl</id>
+      <name>Dennis Lundberg</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/uppsala-university/ati-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:uppsala-university/ati-parent.git</developerConnection>
+    <url>https://github.com/uppsala-university/ati-parent</url>
+  </scm>
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
