@@ -4,7 +4,7 @@
 
   <groupId>se.sunet.ati</groupId>
   <artifactId>ati-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>ATI Parent</name>
