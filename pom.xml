@@ -59,6 +59,18 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <version>2.3.7</version>
+          <extensions>true</extensions>
+          <configuration>
+            <instructions>
+              <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+              <Bundle-Description>${project.description}</Bundle-Description>
+            </instructions>
+          </configuration>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
@@ -145,18 +157,6 @@
             <runOrder>alphabetical</runOrder>
             <trimStackTrace>false</trimStackTrace>
             <useFile>false</useFile>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.felix</groupId>
-          <artifactId>maven-bundle-plugin</artifactId>
-          <version>2.3.7</version>
-          <extensions>true</extensions>
-          <configuration>
-            <instructions>
-              <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-              <Bundle-Description>${project.description}</Bundle-Description>
-            </instructions>
           </configuration>
         </plugin>
         <plugin>
