@@ -118,7 +118,7 @@
               <git>jgit</git>
             </providerImplementations>
             <!-- Activate our own profile during release -->
-            <releaseProfiles>release</releaseProfiles>
+            <releaseProfiles>ati-release</releaseProfiles>
             <!-- Deactivate the default profile "release-profile" during release -->
             <useReleaseProfile>false</useReleaseProfile>
           </configuration>
@@ -170,7 +170,7 @@
 
   <profiles>
     <profile>
-      <id>release</id>
+      <id>ati-release</id>
       <build>
         <plugins>
           <plugin>
