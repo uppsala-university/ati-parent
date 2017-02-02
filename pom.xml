@@ -8,6 +8,8 @@
   <packaging>pom</packaging>
 
   <name>ATI Parent</name>
+  <description>This is the parent for all ATI projects.</description>
+  <url>https://github.com/uppsala-university/ati-parent</url>
   <organization>
     <name>Sunet</name>
     <url>https://www.sunet.se/</url>
