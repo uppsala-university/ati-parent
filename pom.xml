@@ -32,8 +32,8 @@
   </prerequisites>
 
   <scm>
-    <connection>scm:git:git://github.com/uppsala-university/ati-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:uppsala-university/ati-parent.git</developerConnection>
+    <connection>scm:git:https://github.com/uppsala-university/ati-parent.git</connection>
+    <developerConnection>scm:git:https://github.com/uppsala-university/ati-parent.git</developerConnection>
     <url>https://github.com/uppsala-university/ati-parent</url>
   </scm>
   <distributionManagement>
