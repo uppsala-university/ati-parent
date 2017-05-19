@@ -48,7 +48,7 @@ and tag name. The default values should be fine in most cases.
 
 ```
 mvn clean verify
-mvh release:prepare
+mvn release:prepare
 mvn release:perform
 ```
 
