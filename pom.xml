@@ -134,7 +134,7 @@
               <git>jgit</git>
             </providerImplementations>
             <!-- Activate our own profile during release -->
-            <releaseProfiles>ati-release</releaseProfiles>
+            <releaseProfiles>ati-release,toolchains</releaseProfiles>
             <!-- Deactivate the default profile "release-profile" during release -->
             <useReleaseProfile>false</useReleaseProfile>
           </configuration>
@@ -161,6 +161,18 @@
             <runOrder>alphabetical</runOrder>
             <trimStackTrace>false</trimStackTrace>
             <useFile>false</useFile>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-toolchains-plugin</artifactId>
+          <version>1.1</version>
+          <configuration>
+            <toolchains>
+              <jdk>
+                <version>${maven.compiler.target}</version>
+              </jdk>
+            </toolchains>
           </configuration>
         </plugin>
         <plugin>
@@ -209,6 +221,25 @@
                 <id>attach-sources</id>
                 <goals>
                   <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>toolchains</id>
+      <!-- Activate this profile to use Toolchains -->
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-toolchains-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>toolchain</goal>
                 </goals>
               </execution>
             </executions>
