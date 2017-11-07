@@ -2,6 +2,11 @@
 
 This is the parent for all ATI projects.
 
+## Version number policy
+
+This project uses a single number for its version. The next release will have
+the next number in order as its version.
+
 ## Preparing for making releases
 
 To make a release there are a couple of things that you need to set up manually.
