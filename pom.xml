@@ -104,6 +104,11 @@
           <artifactId>maven-gpg-plugin</artifactId>
           <version>1.6</version>
           <configuration>
+            <!-- Required for gpg version 2 -->
+            <gpgArguments>
+              <arg>--pinentry-mode</arg>
+              <arg>loopback</arg>
+            </gpgArguments>
             <!-- Allow releases using gpg version 1 -->
             <useAgent>false</useAgent>
           </configuration>
