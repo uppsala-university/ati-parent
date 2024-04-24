@@ -4,7 +4,7 @@
 
   <groupId>se.sunet.ati</groupId>
   <artifactId>ati-parent</artifactId>
-  <version>6-SNAPSHOT</version>
+  <version>6</version>
   <packaging>pom</packaging>
 
   <name>ATI Parent</name>
@@ -33,7 +33,7 @@
     <connection>scm:git:https://github.com/uppsala-university/ati-parent.git</connection>
     <developerConnection>scm:git:https://github.com/uppsala-university/ati-parent.git</developerConnection>
     <url>https://github.com/uppsala-university/ati-parent</url>
-    <tag>HEAD</tag>
+    <tag>ati-parent-6</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
