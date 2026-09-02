@@ -4,7 +4,7 @@
 
   <groupId>se.sunet.ati</groupId>
   <artifactId>ati-parent</artifactId>
-  <version>7</version>
+  <version>8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>ATI Parent</name>
@@ -31,7 +31,7 @@
   <scm>
     <connection>scm:git:https://github.com/uppsala-university/ati-parent.git</connection>
     <developerConnection>scm:git:https://github.com/uppsala-university/ati-parent.git</developerConnection>
-    <tag>ati-parent-7</tag>
+    <tag>HEAD</tag>
     <url>https://github.com/uppsala-university/ati-parent</url>
   </scm>
 
