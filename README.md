@@ -27,9 +27,9 @@ You need to add the following configuration to your ```settings.xml``` file:
       <password>your-github-password</password>
     </server>
     <server>
-      <id>ossrh</id>
-      <username>your-jira-username-for-ossrh</username>
-      <password>your-jira-password-for-ossrh</password>
+      <id>central</id>
+      <username>your-maven-central-username</username>
+      <password>your-maven-central-password</password>
     </server>
     ...
   </servers>
@@ -57,5 +57,5 @@ mvn release:prepare
 mvn release:perform
 ```
 
-Next go to OSSRH to finish the job by following
-[their instructions](http://central.sonatype.org/pages/releasing-the-deployment.html)
+Next log in to Maven Central Portal to finish the job by following
+[these instructions](https://central.sonatype.org/publish/publish-portal-guide/)
